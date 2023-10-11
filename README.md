@@ -126,7 +126,7 @@ git clone https://gitee.com/lose_recall/ubrfc-net.git
 
 #### Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/NH.png" style="display: inline-block;" />
+<img alt="" src="/images/NH_00.png" style="display: inline-block;" />
 </div>
 
 #### Results on Dense Dehazing Challenge testing images
