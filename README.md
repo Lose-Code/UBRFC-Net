@@ -47,8 +47,7 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 - [Test](#test)
 - [Clone the repo](#clone-the-repo)
 - [Qualitative Results](#qualitative-results)
-  - [Results on HRSD-DHID remote sensing Dehazing Challenge testing images:](#results-on-hrsd-dhid-remote-sensing-dehazing-challenge-testing-images)
-  - [Results on HRSD-LHID remote sensing Dehazing Challenge testing images:](#results-on-hrsd-lhid-remote-sensing-dehazing-challenge-testing-images)
+  - [Results on Dense Dehazing Challenge testing images:](#results-on-dense-dehazing-challenge-testing-images)
   - [Results on Statehaze1k-Thin remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-thin-remote-sensing-dehazing-challenge-testing-images)
   - [Results on Statehaze1k-Moderate remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-moderate-remote-sensing-dehazing-challenge-testing-images)
   - [Results on Statehaze1k-Thick remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-thick-remote-sensing-dehazing-challenge-testing-images)
@@ -64,39 +63,70 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 3. CUDA 11.7
 4. Ubuntu 18.04
 
-###Tree
-
-
+### Filetree
+```
+├─README.md
+│
+├─UBRFC
+│      Attention.py
+│      CR.py
+│      Dataset.py
+│      Declaration.py
+│      GAN.py
+│      Get_image.py
+│      Loss.py
+│      Metrics.py
+│      Option.py
+│      Parameter.py
+│      test.py
+│      train.py
+│      Util.py
+│
+├─images
+│      Attention_00.png
+│      Dense.png
+│      framework_00.png
+│      moderate.png
+│      NH.png
+│      Outdoor.png
+│      thick.png
+│      thin.png     
+│   
+└─LICENSE
+```
 ### Pretrained Weights and Dataset
 
-Download our model weights on Baidu cloud disk: https://pan.baidu.com/s/1dePHGG4MYvyuLW5rZ0D8VA?pwd=lzms
+Download our model weights on Baidu cloud disk: https://drive.google.com/drive/folders/1fyTzElUd5JvKthlf_1o4PTcoC0mm9ar-?usp=sharing
 
 Download our test datasets on Baidu cloud disk: https://pan.baidu.com/s/1HK1oy4SjZ99N-Dh-8_s0hA?pwd=lzms
-
 
 ### Train
 
 ```shell
-python train.py -train_batch_size 4 --gpus 0 --type 5
+python train.py --device 0 --train_root train_path --test_root test_path --batch_size 4
+such as:
+python train.py --device 0 --train_root /home/Datasets/Outdoor/train/ --test_root /home/Datasets/Outdoor/test/ --batch_size 4
 ```
 
 ### Test
 
  ```shell
-python test.py --gpus 0 --type 5
+python Get_image.py --device GUP_id --test_root test_path --pre_model_path model_path
+such as:
+python Get_image.py --device 0 --test_root /home/Dense_hazy/test/ --pre_model_path ./model/best_model.pth
  ```
 
 ### Clone the repo
 
 ```sh
-git clone https://github.com/thislzm/PSMB-Net.git
+git clone https://gitee.com/lose_recall/ubrfc-net.git
 ```
 
 ### Qualitative Results
 
 #### Results on Dense Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/Dense_00.png" style="display: inline-block;" />
+<img alt="" src="/images/Dense.png" style="display: inline-block;" />
 </div>
 
 
@@ -117,12 +147,12 @@ git clone https://github.com/thislzm/PSMB-Net.git
 
 #### Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/NH_00.png" style="display: inline-block;" />
+<img alt="" src="/images/NH.png" style="display: inline-block;" />
 </div>
 
 #### Results on RESIDE-Outdoor Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/outdoor_00.png" style="display: inline-block;" />
+<img alt="" src="/images/Outdoor.png" style="display: inline-block;" />
 </div>
 
 
@@ -138,7 +168,6 @@ git clone https://github.com/thislzm/PSMB-Net.git
 
 
 <!-- links -->
-[your-project-path]:Lose-Code/UBRFC-Net
 [contributors-shield]: https://img.shields.io/github/contributors/Lose-Code/UBRFC-Net.svg?style=flat-square
 [contributors-url]: https://github.com/Lose-Code/UBRFC-Net/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Lose-Code/UBRFC-Net.svg?style=flat-square
