@@ -24,7 +24,7 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
   <h3 align="center">Adaptive Fine-Grained Channel Attention</h3>
 
   <p align="center">
-    Partial Siamese Networks with Multiscale Bi-codec Information Fusion Module for Remote Sensing Single Image Dehazing
+    Unsupervised Contrastive Bidirectional Reconstruction and Adaptive Fine-Grained Channel Attention Networks for Image Dehazing
     <br />
     <a href="https://gitee.com/lose_recall/ubrfc-net"><strong>Exploring the documentation for UBRFC-Net »</strong></a>
     <br />
