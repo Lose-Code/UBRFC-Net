@@ -13,6 +13,7 @@ class Options:
         parser.add_argument('--device', type=str, default='0', help='GPU id')
         parser.add_argument('--is_continue', default=False, help='Whether to continue')
         parser.add_argument('--model_path', default='./model/last_model.pth', help='Loading model')
+        parser.add_argument('--pre_model_path', default='./model/best_model.pth', help='Loading model')
         parser.add_argument('--out_hazy_path', default='./images/input')
         parser.add_argument('--out_gt_path', default='./images/targets')
         parser.add_argument('--out_clear_path', default='./images/clear')
