@@ -26,7 +26,7 @@ generator.to(device)
 
 parameterNet.to(device)
 
-model_path = '/home/wy/code/WY/model/model_1835'
+model_path = opt.pre_model_path
 generator.load_state_dict(torch.load(model_path)["generator_net"])
 parameterNet.load_state_dict(torch.load(model_path)["parameterNet_net"])
 def padding_image(image, h, w):
