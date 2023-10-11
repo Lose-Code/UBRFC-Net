@@ -164,6 +164,6 @@ git clone https://gitee.com/lose_recall/ubrfc-net.git
 [issues-shield]: https://img.shields.io/github/issues/Lose-Code/UBRFC-Net.svg?style=flat-square
 [issues-url]: https://img.shields.io/github/issues/Lose-Code/UBRFC-Net.svg
 [license-shield]: https://img.shields.io/github/license/Lose-Code/UBRFC-Net.svg?style=flat-square
-[license-url]: https://github.com/Lose-Code/UBRFC-Net/blob/master/LICENSE.txt
+[license-url]: https://github.com/Lose-Code/UBRFC-Net/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shaojintian
