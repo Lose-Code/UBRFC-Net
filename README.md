@@ -13,12 +13,12 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 
 <p align="center">
   <a href="https://gitee.com/lose_recall/ubrfc-net">
-    <img src="images/framework_00.png" alt="Logo" width="800" height="500">
+    <img src="images/framework_00.png" alt="Logo" width="8865" height="3971">
   </a>
   <h3 align="center">Contrastive Bidirectional Reconstruction Framework</h3>
   <p align="center">
   <a href="https://gitee.com/lose_recall/ubrfc-net">
-    <img src="images/Attention_00.png" alt="Logo" width="1000" height="640">
+    <img src="images/Attention_00.png" alt="Logo" width="2356" height="1053">
   </a>
   </p>
   <h3 align="center">Adaptive Fine-Grained Channel Attention</h3>
