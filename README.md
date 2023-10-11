@@ -68,7 +68,6 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 │      Attention.py
 │      CR.py
 │      Dataset.py
-│      Declaration.py
 │      GAN.py
 │      Get_image.py
 │      Loss.py
@@ -76,7 +75,6 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 │      Option.py
 │      Parameter.py
 │      test.py
-│      train.py
 │      Util.py
 │
 ├─images
