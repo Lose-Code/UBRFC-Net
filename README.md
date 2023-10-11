@@ -6,7 +6,6 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![AFL License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -91,9 +90,9 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 ```
 ### Pretrained Weights and Dataset
 
-Download our model weights on Baidu cloud disk: https://drive.google.com/drive/folders/1fyTzElUd5JvKthlf_1o4PTcoC0mm9ar-?usp=sharing
+Download our model weights on Google: https://drive.google.com/drive/folders/1fyTzElUd5JvKthlf_1o4PTcoC0mm9ar-?usp=sharing
 
-Download our test datasets on Baidu cloud disk: https://pan.baidu.com/s/1HK1oy4SjZ99N-Dh-8_s0hA?pwd=lzms
+Download our test datasets on Google: https://drive.google.com/drive/folders/13Al-It-4srPW7YjS-Iajl54FEtgXNYRC?usp=sharing
 
 ### Train
 
