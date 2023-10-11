@@ -28,7 +28,7 @@ class Datasets(Dataset):
         else:
             assert len(self.X_dir_list) == len(self.Y_dir_list)
             Y_img_name = self.Y_dir_list[index % len(self.Y_dir_list)]
-            Y_img_name = X_img_name
+            #Y_img_name = X_img_name
         name = Y_img_name.split('.jpg')[0].split('.png')[0]
         X_img = Image.open(os.path.join(self.root_dir, self.train_X, X_img_name))
         Y_img = Image.open(os.path.join(self.root_dir, self.train_Y, Y_img_name))
