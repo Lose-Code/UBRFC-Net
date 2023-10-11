@@ -113,7 +113,7 @@ python Get_image.py --device 0 --test_root /home/Dense_hazy/test/ --pre_model_pa
 ### Clone the repo
 
 ```sh
-git clone https://gitee.com/lose_recall/ubrfc-net.git
+git clone https://github.com/Lose-Code/UBRFC-Net.git
 ```
 
 ### Qualitative Results
