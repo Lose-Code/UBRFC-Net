@@ -1,5 +1,3 @@
-# UBRFC-Net
-
 # UBRFC
 Recently, the CycleGAN framework have been widely explored in image dehazing and obtained remarkable performance. However, during the training process of the dehazing method designed by CycleGAN, the input to the generator encompasses two distinct data distributions: the data in the dataset and the generated data, which can cause confusion in the learning of generator. Moreover, Squeeze and Excitation (SE) channel attention employs fully connected layers to capture global information but lacks interaction with distant local information, resulting in information loss and dilution. To solve the above problems, in this paper, we propose an Unsupervised Contrastive Bidirectional Reconstruction and Adaptive Fine-Grained Channel Attention Networks for Image Dehazing (UBRFC-Net). Specifically, a Unsupervised Contrastive Bidirectional Reconstruction Model (CBRM) is proposed to establish bidirectional reconstruction and bidirectional contrast constraints for implementing an unsupervised framework that avoids the generator in CycleGAN learning different distributions and improves the reconstruction capability. Furthermore, an Adaptive Fine-Grained Channel Attention (FCA) is developed to achieve fine-grained feature interaction between local and global channel information , enabling adaptive allocation of channel weights. Experimental results on challenging benchmark datasets demonstrate the superiority of our UBRFC-Net over state-of-the-art unsupervised image dehazing methods.
 <!-- PROJECT SHIELDS -->
@@ -14,13 +12,13 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 <br />
 
 <p align="center">
-  <a href="https://github.com/Lose-Code/UBRFC">
-    <img src="images/u.png" alt="Logo" width="800" height="500">
+  <a href="https://gitee.com/lose_recall/ubrfc-net">
+    <img src="images/framework_00.png" alt="Logo" width="800" height="500">
   </a>
   <h3 align="center">Contrastive Bidirectional Reconstruction Framework</h3>
   <p align="center">
-  <a href="https://github.com/Lose-Code/UBRFC">
-    <img src="images/a.png" alt="Logo" width="1000" height="640">
+  <a href="https://gitee.com/lose_recall/ubrfc-net">
+    <img src="images/Attention_00.png" alt="Logo" width="1000" height="640">
   </a>
   </p>
   <h3 align="center">Adaptive Fine-Grained Channel Attention</h3>
@@ -28,14 +26,14 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
   <p align="center">
     Partial Siamese Networks with Multiscale Bi-codec Information Fusion Module for Remote Sensing Single Image Dehazing
     <br />
-    <a href="https://github.com/Lose-Code/UBRFC"><strong>Exploring the documentation for UBRFC-Net »</strong></a>
+    <a href="https://gitee.com/lose_recall/ubrfc-net"><strong>Exploring the documentation for UBRFC-Net »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Lose-Code/UBRFC">Check Demo</a>
+    <a href="https://gitee.com/lose_recall/ubrfc-net">Check Demo</a>
     ·
-    <a href="https://github.com/Lose-Code/UBRFC/issues">Report Bug</a>
+    <a href="https://gitee.com/lose_recall/ubrfc-net/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Lose-Code/UBRFC/issues">Pull Request</a>
+    <a href="https://gitee.com/lose_recall/ubrfc-net/issues">Pull Request</a>
   </p>
 
 </p>
