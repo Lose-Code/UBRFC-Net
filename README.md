@@ -6,7 +6,7 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![AFL License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
