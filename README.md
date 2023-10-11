@@ -64,32 +64,8 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 3. CUDA 11.7
 4. Ubuntu 18.04
 
-### Filetree
+###Tree
 
-```
-├── README.md
-├── /PSMB-Net/
-|  ├── train.py
-|  ├── test.py
-|  ├── Model.py
-|  ├── Model_util.py
-|  ├── perceptual.py
-|  ├── train_dataset.py
-|  ├── test_dataset.py
-|  ├── utils_test.py
-|  ├── make.py
-│  ├── /pytorch_msssim/
-│  │  ├── __init__.py
-│  ├── /datasets_train/
-│  │  ├── /hazy/
-│  │  ├── /clean/
-│  ├── /datasets_test/
-│  │  ├── /hazy/
-│  │  ├── /clean/
-│  ├── /output_result/
-├── LICENSE.txt
-└── /images/
-```
 
 ### Pretrained Weights and Dataset
 
@@ -118,15 +94,11 @@ git clone https://github.com/thislzm/PSMB-Net.git
 
 ### Qualitative Results
 
-#### Results on HRSD-DHID remote sensing Dehazing Challenge testing images
+#### Results on Dense Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/DHID.png" style="display: inline-block;" />
+<img alt="" src="/images/Dense_00.png" style="display: inline-block;" />
 </div>
 
-#### Results on HRSD-LHID remote sensing Dehazing Challenge testing images
-<div style="text-align: center">
-<img alt="" src="/images/LHID.png" style="display: inline-block;" />
-</div>
 
 #### Results on Statehaze1k-Thin remote sensing Dehazing Challenge testing images
 <div style="text-align: center">
@@ -145,20 +117,16 @@ git clone https://github.com/thislzm/PSMB-Net.git
 
 #### Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/nhhaze.png" style="display: inline-block;" />
+<img alt="" src="/images/NH_00.png" style="display: inline-block;" />
 </div>
 
 #### Results on RESIDE-Outdoor Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/reside.png" style="display: inline-block;" />
+<img alt="" src="/images/outdoor_00.png" style="display: inline-block;" />
 </div>
 
 
 
-
-### Copyright
-
-The project has been licensed by MIT. Please refer to for details. [LICENSE.txt](https://github.com/thislzm/PSMB-Net/LICENSE.txt)
 
 ### Thanks
 
