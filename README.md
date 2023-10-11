@@ -47,12 +47,10 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 - [Test](#test)
 - [Clone the repo](#clone-the-repo)
 - [Qualitative Results](#qualitative-results)
-  - [Results on Dense Dehazing Challenge testing images:](#results-on-dense-dehazing-challenge-testing-images)
-  - [Results on Statehaze1k-Thin remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-thin-remote-sensing-dehazing-challenge-testing-images)
-  - [Results on Statehaze1k-Moderate remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-moderate-remote-sensing-dehazing-challenge-testing-images)
-  - [Results on Statehaze1k-Thick remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-thick-remote-sensing-dehazing-challenge-testing-images)
-  - [Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images:](#results-on-ntire-2021-nonhomogeneous-dehazing-challenge-testing-images)
   - [Results on RESIDE-Outdoor Dehazing Challenge testing images:](#results-on-reside-outdoor-dehazing-challenge-testing-images)
+  - [Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images:](#results-on-ntire-2021-nonhomogeneous-dehazing-challenge-testing-images)
+  - [Results on Dense Dehazing Challenge testing images:](#results-on-dense-dehazing-challenge-testing-images)
+  - [Results on Statehaze1k remote sensing Dehazing Challenge testing images:](#results-on-statehaze1k-remote-sensing-dehazing-challenge-testing-images) 
 - [Copyright](#copyright)
 - [Thanks](#thanks)
 
@@ -84,13 +82,10 @@ Recently, the CycleGAN framework have been widely explored in image dehazing and
 │
 ├─images
 │      Attention_00.png
-│      Dense.png
-│      framework_00.png
-│      moderate.png
-│      NH.png
-│      Outdoor.png
-│      thick.png
-│      thin.png     
+│      Dense_00.png
+│      framework_00.png 
+│      NH_00.png
+│      Outdoor_00.png
 │   
 └─LICENSE
 ```
@@ -124,25 +119,9 @@ git clone https://gitee.com/lose_recall/ubrfc-net.git
 
 ### Qualitative Results
 
-#### Results on Dense Dehazing Challenge testing images
+#### Results on RESIDE-Outdoor Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/Dense.png" style="display: inline-block;" />
-</div>
-
-
-#### Results on Statehaze1k-Thin remote sensing Dehazing Challenge testing images
-<div style="text-align: center">
-<img alt="" src="/images/thin.png" style="display: inline-block;" />
-</div>
-
-#### Results on Statehaze1k-Moderate remote sensing Dehazing Challenge testing images
-<div style="text-align: center">
-<img alt="" src="/images/moderate.png" style="display: inline-block;" />
-</div>
-
-#### Results on Statehaze1k-Thick remote sensing Dehazing Challenge testing images
-<div style="text-align: center">
-<img alt="" src="/images/thick.png" style="display: inline-block;" />
+<img alt="" src="/images/Outdoor_00.png" style="display: inline-block;" />
 </div>
 
 #### Results on NTIRE 2021 NonHomogeneous Dehazing Challenge testing images
@@ -150,10 +129,18 @@ git clone https://gitee.com/lose_recall/ubrfc-net.git
 <img alt="" src="/images/NH.png" style="display: inline-block;" />
 </div>
 
-#### Results on RESIDE-Outdoor Dehazing Challenge testing images
+#### Results on Dense Dehazing Challenge testing images
 <div style="text-align: center">
-<img alt="" src="/images/Outdoor.png" style="display: inline-block;" />
+<img alt="" src="/images/Dense_00.png" style="display: inline-block;" />
 </div>
+
+#### Results on Statehaze1k remote sensing Dehazing Challenge testing images
+<div style="text-align: center">
+<img alt="" src="/images/Haze1k_00.png" style="display: inline-block;" />
+</div>
+
+
+
 
 
 
