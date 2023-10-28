@@ -24,7 +24,7 @@ Channel Attention (FCA) is developed to achieve fine-grained feature interaction
   <h3 align="center">Adaptive Fine-Grained Channel Attention</h3>
 
   <p align="center">
-    Unsupervised Contrastive Bidirectional Reconstruction and Adaptive Fine-Grained Channel Attention Networks for Image Dehazing
+    Unsupervised Bidirectional Contrastive Reconstruction and Adaptive Fine-Grained Channel Attention Networks for Image Dehazing
     <br />
     <a href="https://gitee.com/lose_recall/ubrfc-net"><strong>Exploring the documentation for UBRFC-Net »</strong></a>
     <br />
